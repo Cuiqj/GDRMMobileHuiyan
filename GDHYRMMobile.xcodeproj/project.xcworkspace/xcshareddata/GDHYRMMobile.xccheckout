@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3E6178E2-29FF-4C94-B722-E06C240EAFB6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>40AAC3A5144DA78B7E95CD2A417BADFF7A0E0276</key>
+		<string>http://192.168.0.243/GDRMMobileHuiyan.git</string>
+		<key>CC9E6813401FC20BF860D9A1BE28999344063381</key>
+		<string>http://192.168.0.243/guizhouluzheng.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GDHYRMMobile.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>40AAC3A5144DA78B7E95CD2A417BADFF7A0E0276</key>
+		<string>../..</string>
+		<key>CC9E6813401FC20BF860D9A1BE28999344063381</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>40AAC3A5144DA78B7E95CD2A417BADFF7A0E0276</key>
+		<string>http://svn.edaoyou.com/edaoyou</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svn.edaoyou.com/edaoyou/GDRMMobile/GDHYRMMobile.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>40AAC3A5144DA78B7E95CD2A417BADFF7A0E0276</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CC9E6813401FC20BF860D9A1BE28999344063381</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>40AAC3A5144DA78B7E95CD2A417BADFF7A0E0276</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GDRMMobileHuiyan</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>40AAC3A5144DA78B7E95CD2A417BADFF7A0E0276</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GDRMMobileHuiyan</string>
+		</dict>
+	</array>
+</dict>
+</plist>

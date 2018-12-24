@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdf:template>
+    {{! 公路赔(补)偿清单 }}
+	<pdf:paper width="595.276" height="841.89" fontName="SimSun" fontSize="10" offset="9,0"/>
+	<pdf:content>
+        <pdf:text point="top-left:50,18" fontSize="20">深圳惠盐高速公路路产损坏清单</pdf:text>
+		<pdf:text point="top-left:163,31" static="NO" fontSize="13">{{ caseNo }} </pdf:text>
+		
+		<pdf:paragraph rect="{15,35},{175,80}" textAlignment="left" lineHeight="10" static="NO" fontSize="16">{{description}}</pdf:paragraph>
+        <pdf:table rect="{15,79},{173,183}" borderWidth="1.0" lineWidth="0.5" padding="1">
+            <pdf:tr height="15">
+            	<pdf:td width="16.5" textAlignment="center">序号</pdf:td>
+            	<pdf:td width="65.5" textAlignment="center">名称</pdf:td>
+            	<pdf:td width="17" textAlignment="center">单位</pdf:td>
+            	<pdf:td width="17" textAlignment="center">数量</pdf:td>
+            	<pdf:td width="17" textAlignment="center">单价\n(元)</pdf:td>
+            	<pdf:td width="18" textAlignment="center">总价\n(元)</pdf:td>
+				<pdf:td width="22" textAlignment="center">备注</pdf:td>
+            </pdf:tr>
+            {{! 赔补偿项目列表 }}
+            {{#items}}
+            <pdf:tr height="13">
+            	<pdf:td width="16.5" >{{ .id }}</pdf:td>
+                <pdf:td width="65.5" textAlignment="left" static="NO">{{ .name }}</pdf:td>
+            	<pdf:td width="17" static="NO">{{ .unit }}</pdf:td>
+            	<pdf:td width="17" static="NO">{{ .quantity }}</pdf:td>
+            	<pdf:td width="17" static="NO">{{ .unit_price }}</pdf:td>
+            	<pdf:td width="18" static="NO">{{ .total_price }}</pdf:td>
+				<pdf:td width="22" static="NO">{{ .total_price }}</pdf:td>
+            </pdf:tr>
+            {{/items}}
+            <pdf:tr height="13">
+            	<pdf:td width="16.5" textAlignment="center">合计</pdf:td>
+                <pdf:td width="65.5" textAlignment="left" static="NO"></pdf:td>
+            	<pdf:td width="17" static="NO"></pdf:td>
+            	<pdf:td width="17" static="NO"></pdf:td>
+            	<pdf:td width="17" static="NO"></pdf:td>
+            	<pdf:td width="18" static="NO">{{ money }}</pdf:td>
+				<pdf:td width="22" static="NO"></pdf:td>
+            </pdf:tr>
+        </pdf:table>
+		<pdf:text point="top-left:150,264" static="NO" fontSize="13">{{ dateTime }} </pdf:text>
+	</pdf:content> 
+</pdf:template>
